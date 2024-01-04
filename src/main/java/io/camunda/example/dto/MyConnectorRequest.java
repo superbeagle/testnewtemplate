@@ -7,5 +7,6 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 
 public record MyConnectorRequest(
-    @NotEmpty @TemplateProperty(group = "compose", type = PropertyType.Text) String message,
-    @Valid @NotNull Authentication authentication) {}
+        @Valid @NotNull Command command,
+        @Valid @NotNull Jdbc jdbc,
+        @Valid @NotNull Authentication authentication) {}

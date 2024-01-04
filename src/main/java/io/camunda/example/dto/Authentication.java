@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotEmpty;
 
 public record Authentication(
     @NotEmpty
-    @TemplateProperty(group = "authentication", label = "Username", description = "The username for authentication")
-    String user,
-    @NotEmpty @TemplateProperty(group = "authentication", description = "The token for authentication")
-    String token) { }
+    @TemplateProperty(label = "Username", description = "Username to use to connect to the database")
+    String userName,
+    @NotEmpty @TemplateProperty(label = "Password", description = "Password to use to connect to the database")
+    String password) { }
