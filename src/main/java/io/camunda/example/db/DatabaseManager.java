@@ -1,9 +1,11 @@
 package io.camunda.example.db;
 
-import com.zaxxer.hikari.HikariConfig;
+/*import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import io.camunda.example.dto.MyConnectorRequest;
+
+ */
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -12,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 public class DatabaseManager {
-
+/*
   private final HikariDataSource dataSource;
 
   public DatabaseManager(MyConnectorRequest connectorRequest) {
@@ -138,4 +140,6 @@ public class DatabaseManager {
       throw new IllegalStateException(e);
     }
   }
+
+ */
 }

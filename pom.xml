@@ -113,7 +113,7 @@
     </dependency>
 
     <!-- JDBC Dependencies -->
-    <dependency>
+    <!-- dependency>
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
       <version>3.4.5</version>
@@ -139,7 +139,7 @@
       <artifactId>mysql-connector-j</artifactId>
       <version>8.0.31</version>
       <scope>compile</scope>
-    </dependency>
+    </dependency -->
   </dependencies>
 
   <build>
