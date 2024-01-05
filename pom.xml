@@ -231,7 +231,7 @@
             </execution>
           </executions>
         </plugin>
-        <plugin>
+        <!-- plugin>
           <groupId>io.camunda.connector</groupId>
           <artifactId>element-template-generator-maven-plugin</artifactId>
           <version>${version.connectors}</version>
@@ -242,7 +242,7 @@
               </goals>
             </execution>
           </executions>
-        </plugin>
+        </plugin -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
